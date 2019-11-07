@@ -1,0 +1,16 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "node-mqtt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "norman",
+  "license": "MIT",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "redis": "^2.8.0"
+  }
+}
