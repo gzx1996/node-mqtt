@@ -28,7 +28,9 @@ var settings = {
     port: 1883,
     backend: ascoltatore,
     persistence: {
-        factory: mosca.persistence.Redis
+        factory: mosca.persistence.Redis,
+        host: 'localhost',
+        port: '6379'
     }
 };
 /*******************************************************/
